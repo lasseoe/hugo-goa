@@ -1,1 +1,11 @@
 /* Add custom CSS here. */
+.author h1,
+.author h2,
+.author h3,
+.author h4,
+.author h5,
+.author h6,
+.author p
+{
+    font-family: 'Roboto Slab', serif;
+}
