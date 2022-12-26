@@ -4,9 +4,9 @@
 
 {{ with .Site.Params.extra }}
 {{ if .highlightjs }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" integrity="sha512-bgHRAiTjGrzHzLyKOnpFvaEpGzJet3z4tZnXGjpsCcqOnAH6VGUx9frc5bcIhKTVLEiCO6vEhNAgx5jtLUYrfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   {{ range .highlightjslanguages }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/languages/{{.}}.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/{{.}}.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   {{ end }}
 
 <script type="text/javascript">
